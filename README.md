@@ -116,13 +116,14 @@ git工作流其实就是一套使用git进行版本控制的流程规范, 有利
     6. 其他
         : 预发布分支: 进行AB test
 
-Git工作时的注意事项 <br/>
+**Git工作时的注意事项** <br/>
+
 1. 删除操作时尽量使用<code>git revert</code>
 2. <code>rebase虽好, 可不要贪杯哦</code>, 绝大多数情况下merge就足够了
 3. 频繁提交, 这样不至于一次提交时和其他开发者的版本库相差太大
 4. 项目的管理者在进行开发时也要pull request! pull request的代码才可以保证质量(代码测试、code review)
 
-最后但仍然重要的是 <br/>
+**最后但仍然重要的是** <br/>
 CI(持续集成), 这个现在还在摸索, 但是很重要,
 更多关于CI可以看[一峰大师的博客](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)
 
